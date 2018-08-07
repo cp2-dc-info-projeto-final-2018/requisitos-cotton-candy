@@ -1,15 +1,15 @@
-####Colégio Pedro II
-#Cotton Candy Planners
-#####19 de junho de 2018
-###VISÃO GERAL
+#### Colégio Pedro II
+# Cotton Candy Planners
+##### 19 de junho de 2018
+### VISÃO GERAL
 Desenvolver um site cujo o objetivo é gerenciar os estudos de todos os tipos e alunos, utilizando planilhas de um jeito simples e intuitivo.
-###OBJETIVOS   
-1.Gerenciar Matérias;
-2.Gerenciar Notas;
-3.Gerenciar Horários;
-4.Gerenciar Atividades Extras (incluindo ranço dos amigos e professores);
-5.Calendários Personalizados.
-###ESPECIFICAÇÕES
+### OBJETIVOS   
+* Gerenciar Matérias;
+* Gerenciar Notas;
+* Gerenciar Horários;
+* Gerenciar Atividades Extras (incluindo ranço dos amigos e professores);
+* Calendários Personalizados.
+### ESPECIFICAÇÕES
 O cliente deve fornecer seus dados escolares (Nome, Escola, Curso, Matérias, etc)  para iniciar a utilização do site.
 Com base nesses dados, o site será personalizado de acordo com as suas necessidades.
 O usuário poderá modificar seus dados a qualquer momento.
