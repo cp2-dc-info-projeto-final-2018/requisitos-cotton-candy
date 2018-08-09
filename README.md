@@ -7,7 +7,7 @@ Desenvolver um site cujo o objetivo é gerenciar os estudos de todos os tipos e 
 * Gerenciar Matérias;
 * Gerenciar Notas;
 * Gerenciar Horários;
-* Gerenciar Atividades Extras (incluindo ranço dos amigos e professores);
+* Gerenciar Atividades Extras;
 * Calendários Personalizados.
 ### ESPECIFICAÇÕES
 O cliente deve fornecer seus dados escolares (Nome, Escola, Curso, Matérias, etc)  para iniciar a utilização do site.
