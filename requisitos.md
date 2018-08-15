@@ -50,7 +50,7 @@ O cliente poderá selecionar a opção de curso;
 
 ### RF 04
 O usuário deverá informar quais são as matérias abordadas no curso (ensino fundamental, médio ou superior) para que apareçam na tabela de planejamento;
-  Para dar inicio a utilização do Software, o usuário deverá fornecer quais matérias são contidas no seu curso escolar, para que apareçam na tabela de notas.
+  * Para dar inicio a utilização do Software, o usuário deverá fornecer quais matérias são contidas no seu curso escolar, para que apareçam na tabela de notas.
 
 ### RF 05
 O cliente terá acesso à uma planilha de plano de estudos e um calendário mensal que poderão ser editados criando eventos;
