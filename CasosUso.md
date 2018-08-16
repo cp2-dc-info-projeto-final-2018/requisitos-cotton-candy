@@ -1,35 +1,36 @@
 # Especificação dos Casos de Uso
 
-## CDU 01 -
+## CDU 01 - Atualizar/Adicionar as matérias
+Atores: Usários
 
-## CDU 02 -
+Pré-condições: Ter concluido o primeiro passo para a utilização do software e estar logado.
 
-## CDU 03 -
+Fluxo principal:
+1. O usuário deverá, após concluir o cadastro, especificar a sua grade curricular;
+2. Caso o usuário necessite, ele poderá atualizar sua lista de matérias.
 
-## CDU 04 -
+## CDU 02 - Definir layout
+Atores: Usários
 
-## CDU 05 - Adicionar Eventos e Tarefas
-Atores: Usuário
+Pré-condições: Ter concluido o primeiro e segundo passo para a utilização do software e estar logado.
 
-Pré-Condições: Terá que estar cadastrado no site e ter concluído o preenchimento de dados pessoais
+Fluxo principal:
+1. O usuário deverá, após concluir o cadastro, editar sua tabela de acordo com suas necessidades;
+2. O usuário poderá personalizar a tabela de acordo com suas cores de preferência.
 
-Fluxo Principal:
-1.
+## CDU 03 - Lembretes
+Atores: Usários
 
-## CDU 06 - Cadastro
-Atores: Usuário
+Pré-condições: Ter concluido todos os passos para a utilização do software, estar logado e habilitar as notificações.
 
-Pré-Condições: Entrar no site
+Fluxo principal:
+1. O usuário deverá adicionar tarefas ou eventos;
+2. Caso o usuário queira receber notificações, ele deverá habilitar as configurações.
 
-Fluxo Principal:
-1.Usuário informa o nome, email e senha;
-2.Sistema irá guardar os dados que o usuário informou
+## CDU 05 -
 
+## CDU 06 -
 
 ## CDU 07 -
 
 ## CDU 08 -
-
-## CDU 09 -
-
-## CDU 10 -
