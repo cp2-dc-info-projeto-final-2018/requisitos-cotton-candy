@@ -1,6 +1,6 @@
 # Especificação dos Casos de Uso
 
-# Sumário
+## Sumário
 - [CDU 01 - Cadastro](#cdu-01---cadastro)
 - [CDU 02 - Adicionar as matérias](#cdu-02---adicionar-as-matérias)
 - [CDU 03 - Adicionar as notas](#cdu-01---adicionar-as-notas)
