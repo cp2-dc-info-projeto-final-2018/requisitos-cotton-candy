@@ -15,7 +15,7 @@
 **Pré-Condições:** O usuário precisa entrar no site
 
 **Fluxo Principal:**
-1. Usuário informa o nome, email e senha;
+1. Usuário informa o nome, email, usuário e senha;
 2. Sistema irá armazenar os dados que o usuário informou
 
 ## CDU 02 - Adicionar as matérias
