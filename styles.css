@@ -1,6 +1,26 @@
-  body {
-    background-image: url(El_Floral.jpg);
-    background-repeat: no-repeat;
-    height: 500px;
-    position: relative;
+  #cadastro {
+    background-image: url(bluefundo.jpg);
+
+    width: 300px;
+    height: 720px;
+    text-align: center;
+    float: right;
+    font-family: Century Gothic;
+    font-size: 18px;
   }
+
+  #titulocadastro {
+    font-family: Vladimir Script;
+    font-size: 50px;
+  }
+
+  #inicio {
+    border: solid;
+    float: left;
+    width: 1200px;
+    height: 730px;
+  }
+
+ body {
+   background-image: url(fundo2.jpg);
+ }
