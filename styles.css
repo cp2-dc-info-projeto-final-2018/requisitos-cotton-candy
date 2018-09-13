@@ -1,5 +1,5 @@
   #cadastro {
-    background-image: url(bluefundo.jpg);
+    background-image: url(fundo.jpg);
 
     width: 300px;
     height: 720px;
@@ -17,10 +17,12 @@
   #inicio {
     border: solid;
     float: left;
-    width: 1200px;
-    height: 730px;
+    width: 1000px;
+    height: 600px;
   }
 
  body {
-   background-image: url(fundo2.jpg);
+   background-image: url(fundo.jpg);
+   background-size: contain;
+   repeat: no-repeat;
  }
