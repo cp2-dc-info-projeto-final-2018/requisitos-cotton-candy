@@ -9,6 +9,7 @@
         $request,
         [
           'nome' => FILTER_DEFAULT,
+          'sobrenome' => FILTER_DEFAULT,
           'usuario' => FILTER_DEFAULT,
           'email' => FILTER_VALIDATE_EMAIL,
           'senha' => FILTER_DEFAULT,
@@ -21,6 +22,12 @@
     {$erros[] = "O campo Nome precisa ser preenchido.";}
     else if (strlen($nome) > 20)
     {$erros[] = "O nome informado não pode ultrapassar 20 caracteres.";}
+
+    $sobrenome= $request['sobrenome'];
+    if ($sobrenome == false)
+    {$erros[] = "O campo Sobrenome precisa ser preenchido.";}
+    else if (strlen($sobrenome) > 20)
+    {$erros[] = "O sobrenome informado não pode ultrapassar 20 caracteres.";}
 
     $usuario= $request['usuario'];
     if ($usuario == false)

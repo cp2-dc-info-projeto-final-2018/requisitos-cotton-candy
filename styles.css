@@ -1,28 +1,28 @@
   #cadastro {
-    background-image: url(fundo.jpg);
-
-    width: 300px;
+    width: 350px;
     height: 720px;
-    text-align: center;
     float: right;
-    font-family: Century Gothic;
-    font-size: 18px;
   }
 
   #titulocadastro {
-    font-family: Vladimir Script;
-    font-size: 50px;
+    font-family: Century Gothic;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  input {
+    width: 150px;
   }
 
   #inicio {
     border: solid;
     float: left;
-    width: 1000px;
+    width: 950px;
     height: 600px;
   }
 
  body {
-   background-image: url(fundo.jpg);
+   background-image: url(fundoDegrade.jpg);
    background-size: contain;
-   repeat: no-repeat;
+
  }
