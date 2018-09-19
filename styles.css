@@ -20,7 +20,7 @@
     float: left;
     width: 1200px;
     height: 800px;
-    background-image: url(essedaqui.jpg);
+    background-image: url(fotoinicial.jpg);
     background-repeat: no-repeat;
   }
 
@@ -29,30 +29,32 @@
   background-size: contain;
   background-repeat: no-repeat;
  }
- .cabeçalho {
+
+ #cabeçalho {
      width: 800px;
 
 
  }
+
 .cadastroinput{
   padding: 15px;
 }
 
-#usuario{
+.usuario{
   padding: 5px;
   font-family: Century Gothic;
   width: 200px;
   padding-right: 100px;
 }
 
-#senha{
+.senha{
   padding: 5px;
   font-family: Century Gothic;
   width: 200px;
   padding-right: 100px;
 }
 
-#loginbutton{
+.loginbutton{
   padding: 5px;
   font-family: Century Gothic;
 
