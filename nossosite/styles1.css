@@ -1,0 +1,65 @@
+<style type="text/css">
+body {
+  padding:0px;
+  margin:0px;
+}
+
+
+
+#menu ul {
+  padding:0px;
+  margin:0px;
+  float: left;
+  width: 15,5%;
+  height:760px;
+  list-style:left;
+  font:80% Tahoma;
+  background-color:#B572DF;
+
+}
+
+
+#menulado  {
+float :  left ;
+largura :  1px ;
+
+}
+
+#menu ul li a {
+  background-color:#B572DF; roxo
+  color: #333;
+  text-decoration: none;
+  border-bottom:2px  hidden #EDEDED;
+  padding: 2px 10px;
+  float: none;
+  font-size: 30px;
+  font-family: extra-expanded;
+  color: white;
+
+}
+
+#menu ul li a:hover {
+  background-color:#D0A9F5;corquandoclica
+  color: white;
+  border-bottom:3px solid #B572DF; paradinhaembaixo
+
+
+}
+
+#menufoto
+
+img {
+position: relative;
+left:50%;
+top:50%;
+}
+
+#calendario
+h1{
+width: 80%;
+height: 200px;
+margin: 0 auto;
+
+}
+
+</style>
