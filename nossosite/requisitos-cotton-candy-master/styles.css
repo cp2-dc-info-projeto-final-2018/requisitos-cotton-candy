@@ -58,11 +58,12 @@
 }
 
 .usuario{
-  padding: 50px;
+  padding: 10px;
   font-family: Century Gothic;
-  width: 200px;
+  width: 300px;
   padding-right: 100px;
   border-left: 100px;
+  font-weight: bold;
 }
 
 
