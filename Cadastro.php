@@ -5,24 +5,20 @@
     $bd = CriaConexãoBD();
 
     $sql = $bd->prepare("INSERT INTO Usuario (nome, sobrenome, usuario, email, senha, instituicao) VALUES (:valnome, :valsobrenome, :valusuario, :valemail, :valsenha, :valinstituicao)");
-
+      $senha = $dadosNovoContato['senha'];
+      $hash = password_hash($senha, PASSWORD_DEFAULT);
       $sql->bindValue(':valnome', $dadosNovoContato['nome']);
       $sql->bindValue(':valsobrenome', $dadosNovoContato['sobrenome']);
       $sql->bindValue(':valusuario', $dadosNovoContato['usuario']);
       $sql->bindValue(':valemail', $dadosNovoContato['email']);
-      $sql->bindValue(':valsenha', $dadosNovoContato['senha']);
+      $sql->bindValue(':valsenha', $hash);
       $sql->bindValue(':valinstituicao', $dadosNovoContato['instituicao']);
 
       $sql->execute();
-
-      
   }
 
-  $dadosNovoContato=[];
   $erros=[];
 
-  if(empty($_REQUEST) == false)
-  {
       $request = array_map('trim', $_REQUEST);
 
       $request = filter_var_array(
@@ -83,15 +79,17 @@
     else if (strlen($instituicao) > 20)
     {$erros[] = "A instituição informada não pode ultrapassar 20 caracteres.";}
     $dadosNovoContato['instituicao'] = $instituicao;
-  }
 
-  foreach ($erros as $x) {
-    echo  $x;
-  }
 
-  if (empty($erros)) {
-    echo 'Usuário inserido com sucesso';
-    InsereUsuario($dadosNovoContato);
+
+  if (empty($erros) == true) {
+    InsereUsuario($request);
+    header('Location: Pagina1.php');
+  }
+  else{
+    foreach ($erros as $x) {
+      echo  $x;
+    }
   }
 
 ?>
