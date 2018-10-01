@@ -1,45 +1,10 @@
 
-  body {
-    background-color: #9DF3F8;
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
-
-  #inicio {
-   float: left;
-   width: 1200px;
-   height: 800px;
-  }
-
-  .loginlabel{
-    padding: 5px;
-    font-family: Century Gothic;
-  }
-
-  #divusuario{
-    width: 50px;
- }
-
-  #divsenha{
-    width: 10px;
-  }
-
-  #usuario{
-    padding: 5px;
-    font-family: Century Gothic;
-    width: 200px;
-  }
-
-  #senha{
-    padding: 5px;
-    font-family: Century Gothic;
-    width: 200px;
-  }
-
   #cadastro {
     width: 300px;
-    height: 720px;
+    height: 600px;
+    float: right;
     text-align: center;
+    padding-right: 5%;
   }
 
   #titulocadastro {
@@ -48,98 +13,127 @@
     text-align: center;
   }
 
-  .cadastroinput{
-    height: 15px;
-    width: 260px;
-    padding: 15px;
-    font-family: Century Gothic;
-  }
-
-  .cadastronome{
-    height: 15px;
-    width: 110px;
-    padding: 15px;
-    font-family: Century Gothic;
-  }
-
-  #loginbutton{
-    display: inline-block;
-    border-radius: 4px;
-    background-color: #f4511e;
-    border: none;
-    color: #FFFFFF;
-    text-align: center;
-    font-size: 20px;
-    padding: 15px;
+  input .cadastro {
     width: 200px;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin: 5px;
-    font-family: Century Gothic;
+    height: 10px;
   }
 
-  #cadastrobutton{
-    display: inline-block;
-    border-radius: 4px;
-    background-color: #f4511e;
-    border: none;
-    color: #FFFFFF;
-    text-align: center;
+  #inicio {
+    float: left;
+    width: 1250px;
+    height: 800px;
+    background-image: url(fotoinicial.jpg);
+    background-repeat: no-repeat;
+  }
+
+  body {
+    background-color: #9DF3F8;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  #cabeçalho {
+     width: 900px;
+  }
+
+  .login {
+    height: 25px;
+    width: 1200px;
+    display: block;
+    padding-left: 0px;
+    font-family:  Century Gothic;
+    color: #FB4E59;
     font-size: 20px;
+  }
+
+  .cadastroinput {
     padding: 15px;
-    width: 200px;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin: 5px;
+  }
+
+  .usuario {
+    padding: 10px;
     font-family: Century Gothic;
+    width: 300px;
+    padding-right: 100px;
+    border-left: 100px;
+    font-weight: bold;
   }
 
-  #loginbutton span {
-    cursor: pointer;
+  .senha {
+    padding: 30px;
+    font-family: Century Gothic;
+    width: 200px;
+    padding-right: 100px;
+  }
+
+  .cadastrobutton {
+    font-family: Century Gothic;
+    text-align: center;
+    width: auto;
+    height: auto;
+  }
+  .cadastrobutton {
     display: inline-block;
-    position: relative;
-    transition: 0.5s;
-  }
-
-  #cadastrobutton span {
+    padding: 10px 20px;
+    font-size: 20px;
     cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-image: url(doce.jpg);
+    background-color:#FB4E59;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 9px #999;
+    transition: all 0.5s;
+  }
+
+  .cadastrobutton:hover {
+    background-color: #F77388;
+  }
+
+  .cadastrobutton:active {
+    background-color: #F77388;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  #titulo {
+    font-family: Century Gothic;
+    font-color: #FB4E59;
+    font-size: 40px;
+  }
+
+
+  #loginbutton {
+    font-family: Century Gothic;
+    text-align: center;
+    width: auto;
+    height: auto;
+
+  }
+
+  #loginbutton {
     display: inline-block;
-    position: relative;
-    transition: 0.5s;
+    padding: 3px 15px;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-image: url(doce.jpg);
+    background-color:#FB4E59;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 9px #999;
   }
 
-  #loginbutton span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
+  #loginbutton:hover {
+    background-color: #F77388;
   }
 
-  #cadastrobutton span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-  }
-
-  #loginbutton:hover span {
-    padding-right: 25px;
-  }
-
-  #cadastrobutton:hover span {
-    padding-right: 25px;
-  }
-
-  #loginbutton:hover span:after {
-    opacity: 1;
-    right: 0;
-  }
-
-  #cadastrobutton:hover span:after {
-    opacity: 1;
-    right: 0;
+  #loginbutton:active {
+    background-color: #F77388;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
   }

@@ -3,7 +3,6 @@
   function InsereUsuario($dadosNovoContato)
   {
     $bd = CriaConexãoBD();
-
     $sql = $bd->prepare("INSERT INTO Usuario (nome, sobrenome, usuario, email, senha, instituicao) VALUES (:valnome, :valsobrenome, :valusuario, :valemail, :valsenha, :valinstituicao)");
       $senha = $dadosNovoContato['senha'];
       $hash = password_hash($senha, PASSWORD_DEFAULT);
@@ -13,14 +12,11 @@
       $sql->bindValue(':valemail', $dadosNovoContato['email']);
       $sql->bindValue(':valsenha', $hash);
       $sql->bindValue(':valinstituicao', $dadosNovoContato['instituicao']);
-
       $sql->execute();
   }
 
   $erros=[];
-
       $request = array_map('trim', $_REQUEST);
-
       $request = filter_var_array(
         $request,
         [
@@ -80,9 +76,7 @@
     {$erros[] = "A instituição informada não pode ultrapassar 20 caracteres.";}
     $dadosNovoContato['instituicao'] = $instituicao;
 
-
-
-  if (empty($erros) == true) {
+  if (empty($erros) == false) {
     InsereUsuario($request);
     header('Location: Pagina1.php');
   }
@@ -91,5 +85,4 @@
       echo  $x;
     }
   }
-
 ?>
