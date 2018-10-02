@@ -1,7 +1,7 @@
 
-  #cadastro {
-    width: 300px;
-    height: 600px;
+#cadastro {
+    width: 250px;
+    height: 500px;
     float: right;
     text-align: center;
     padding-right: 5%;
@@ -33,7 +33,7 @@
   }
 
   #cabeçalho {
-     width: 900px;
+     width: 100%;
   }
 
   .login {
@@ -80,7 +80,6 @@
     text-decoration: none;
     outline: none;
     color: #fff;
-    background-image: url(doce.jpg);
     background-color:#FB4E59;
     border: none;
     border-radius: 25px;
@@ -121,7 +120,6 @@
     text-decoration: none;
     outline: none;
     color: #fff;
-    background-image: url(doce.jpg);
     background-color:#FB4E59;
     border: none;
     border-radius: 25px;

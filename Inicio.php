@@ -1,14 +1,21 @@
 <?php
 	session_start();
-	if(empty($_SESSION['erroLogin']) == false)
+	if(array_key_exists('erroLogin' , $_SESSION))
 	{
-	$erro = $_SESSION['erroLogin'];
+	 $erro = $_SESSION['erroLogin'];
+	 unset($_SESSION['erroLogin']);
+	 //header('Location = Inicio.php');
 	}
-	else {
-		$erro = null;
+	else
+	{
+		$erro= null;
 	}
+	if (array_key_exists('emailUsuarioLogado', $_SESSION))
+	{
+	 header('Location: Pagina1.php');
+	 exit();
+ }
 ?>
-
 <!DOCTYPE html>
   <html>
     <head>
@@ -22,9 +29,9 @@
     <body style="overflow:hidden;">
 
       <header class="cabeçalho">
-        <form class="login" method="post">
+        <form class="login" method="post" action="Login.php">
 
-          <?php if ($erro != null) { ?>
+          <?php if (empty($erro) == false) { ?>
 
 						<div class="erro">
 	          <p> Erro: <?= $erro ?> </p>

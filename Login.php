@@ -19,7 +19,7 @@
       	$sql -> bindValue(':valusuario', $usuario);
         $sql -> execute();
         $resultado = $sql->fetch(); //pega a senha do bd
-      	return $resultado['Senha'];
+      	return $resultado['senha'];
       }
   $erro = null;
 	$_request = array_map('trim', $_REQUEST);
@@ -30,6 +30,7 @@
 	           );
 	$usuario = $_request['usuario'];
 	$senha = $_request['senha'];
+
 	if ($usuario == false)
 	{
 		$erro = "Usuário não informado";
@@ -41,12 +42,11 @@
 	else if (verificaUsuario($usuario)==0){
 		$erro = "Nenhum usuário cadastrado";
 	}
-	else if (password_verify($senha, buscaSenha($usuario))==false)
+	else if (password_verify($senha, buscaSenha($usuario)) == false)
 	{
-		$erro = "Senha inválida";
+		$erro = "Senha Inválida";
 	}
-
-	if($erro != null){
+	if(empty($erro) == false){
     session_start();
 		$_SESSION['erroLogin'] = $erro;
 		header('Location: Inicio.php');
