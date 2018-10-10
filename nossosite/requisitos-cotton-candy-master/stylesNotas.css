@@ -1,38 +1,82 @@
-<style type="text/css">
 
   body {
     padding:0px;
     margin:0px;
-    margin-top: 0px;
-    margin-left: 0px;
   }
-
   #menu ul {
     padding:0px;
     margin:0px;
     float: left;
-    width: auto;
+    width: 15,5%;
     height:760px;
     list-style:left;
     font:80% Tahoma;
-    background-color:#EDEDED;
-
+    background-color:#B572DF;
   }
-
+  #menulado  {
+    float: left ;
+    width: 1px ;
+  }
+  #tbnotas{
+    position: relative;
+    left: 5%;
+  }
   #menu ul li a {
-    background-color:#EDEDED;
+    background-color:#B572DF;
     color: #333;
     text-decoration: none;
-    border-bottom:3px solid #EDEDED;
+    border-bottom:2px  hidden #EDEDED;
     padding: 2px 10px;
     float: none;
     font-size: 30px;
-    font-family: Segoe script;
+    font-family: extra-expanded;
+    color: white;
   }
-
   #menu ul li a:hover {
     background-color:#D6D6D6;
-    color: #FB4E59;
-    border-bottom:3px solid #F77388;
+    color: #6D6D6D;
+    border-bottom:3px solid #EA0000;
   }
-</style>
+  #menufoto img {
+    position: relative;
+    left:50%;
+    top:50%;
+  }
+  #calendario h1{
+    width: 80%;
+    height: 200px;
+    margin: 0 auto;
+  }
+ .abas {
+   position: relative;
+ }
+ .aba {
+   display: inline;
+ }
+ .aba > a {
+   float: left;
+   padding: 0.5em 1em;
+   background: linear-gradient(#FFF, #EEE);
+   border-width: 1px;
+   border-style: solid;
+   border-color: #CCC #CCC #FFF;
+   border-top-right-radius: 8px;
+   border-top-left-radius: 8px;
+ }
+ .aba:not(:target) a {
+   border-bottom: 0 none;
+ }
+ .aba:target a, a:hover {
+   background: white;
+ }
+ .conteudo {
+   position: absolute;
+   left: 0;
+   top: calc(2em + 4px); /* altura do link + bordas */
+   z-index: -2;
+   border: 1px solid #CCC;
+   background-color: white;
+ }
+ .aba:target .conteudo {
+   z-index: -1;
+ }
