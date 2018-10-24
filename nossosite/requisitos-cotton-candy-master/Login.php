@@ -1,26 +1,16 @@
 <?php
   require_once("ConexaoBd.php");
 
-  function verificaUsuario(string $usuario){
+  function BuscaUsuario(string $usuario){
     	$bd = CriaConexãoBD();
     	$sql = $bd -> prepare (
-    	"select usuario from Usuario
-    	where usuario = :valusuario");
+    	"SELECT id_Aluno, senha FROM Usuario
+    	WHERE usuario = :valusuario");
     	$sql -> bindValue(':valusuario', $usuario);
       $sql -> execute();
-    	return $sql -> rowCount();
+    	return $sql -> fetch();
     }
 
-    function buscaSenha(string $usuario){
-      	$bd = CriaConexãoBD();
-      	$sql = $bd -> prepare (
-      	"select senha from Usuario
-      	where usuario = :valusuario");
-      	$sql -> bindValue(':valusuario', $usuario);
-        $sql -> execute();
-        $resultado = $sql->fetch(); //pega a senha do bd
-      	return $resultado['senha'];
-      }
   $erro = null;
 	$_request = array_map('trim', $_REQUEST);
 	$_request = filter_var_array(
@@ -39,19 +29,26 @@
 	{
 		$erro = "Senha não informada";
 	}
-	else if (verificaUsuario($usuario)==0){
-		$erro = "Nenhum usuário cadastrado";
-	}
-	else if (password_verify($senha, buscaSenha($usuario)) == false)
-	{
-		$erro = "Senha Inválida";
-	}
+	else
+  {
+    $dadosUsuario = BuscaUsuario($usuario);
+
+     if ($dadosUsuario == false){
+    		$erro = "Nenhum usuário cadastrado";
+    	}
+    	else if (password_verify($senha, $dadosUsuario['senha']) == false)
+    	{
+    		$erro = "Senha Inválida";
+    	}
+}
+
 	if(empty($erro) == false){
     session_start();
 		$_SESSION['erroLogin'] = $erro;
 		header('Location: Inicio.php');
 	}
   else {
+    $_SESSION['idAluno'] = $dadosUsuario['id_Aluno'];
     header('Location: Pagina1.php');
   }
 ?>
