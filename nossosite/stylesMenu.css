@@ -1,0 +1,58 @@
+body {
+  padding:0px;
+  margin:0px;
+}
+#menu ul {
+  padding:0px;
+  margin:0px;
+  float: left;
+  width: 15,5%;
+  height:760px;
+  list-style:left;
+  font:80% Tahoma;
+ background-color:#FF5C8F;
+}
+#menulado  {
+  float: left ;
+  width: 1px ;
+}
+#tbnotas{
+  position: relative;
+  left: 5%;
+}
+#menu ul li a {
+  background-color:#FF5C8F;
+  color: #333;
+  text-decoration: none;
+  border-bottom:2px  hidden #FF5C8F;
+  padding: 2px 10px;
+  float: none;
+  font-size: 30px;
+  font-family: extra-expanded;
+  color: white;
+}
+#menu ul li a:hover {
+  background-color:#FF5C8F;
+  color: white;
+  border-bottom:3px solid white;
+}
+#menufoto img {
+  position: relative;
+  left:50%;
+  top:50%;
+}
+#bianca {
+  WIDTH="30"><TABLE CELLSPACING=0 BORDER=1 BGCOLOR=DEDEFF BORDERCOLOR=CCCCCC><TR><TD WIDTH=20
+}
+#tabela{
+  CELLSPACING=10
+   BORDER=1
+    BGCOLOR=DEDEFF
+    BORDERCOLOR=CCCCCC
+}
+#tede{
+  WIDTH=20
+}
+#tudão{
+  padding: 100px;
+}
