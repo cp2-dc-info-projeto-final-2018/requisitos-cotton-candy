@@ -3,11 +3,7 @@
   function buscaemail(string $emailigual)
   {
   	$bd = CriaConexãoBD();
-  	$sql = $bd -> prepare (
-  	"select email from usuario
-  	where email = :valemail
-  	"
-  	);
+  	$sql = $bd -> prepare ('SELECT email FROM usuario WHERE email = :valemail');
     $sql -> bindValue(':valemail', $emailigual);
     $sql -> execute();
     return $sql -> rowCount();
@@ -26,6 +22,8 @@
       $sql->bindValue(':valinstituicao', $dadosNovoContato['instituicao']);
 
       $sql->execute();
+
+      return $bd->lastInsertId();
   }
 
   $erros=[];
@@ -88,12 +86,15 @@
     else if (strlen($instituicao) > 20)
     {$erros = "A instituição informada não pode ultrapassar 20 caracteres.";}
 
-  if (empty($erros)) {
-    InsereUsuario($request);
-    header('Location: Pagina1.php');
+  session_start();
+  if (empty($erros) == true) {
+    $id = InsereUsuario($request);
+    $_SESSION['idAluno'] = $id;
+    header('Location: paginaNotas.php');
   }
   else{
-    header('Location: Inicio.php');
+      $_SESSION['erroLogin'] = $e;
+      header('Location: Inicio.php');
   }
 
 ?>

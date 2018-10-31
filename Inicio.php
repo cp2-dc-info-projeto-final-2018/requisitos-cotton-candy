@@ -12,7 +12,7 @@
 	}
 	if (array_key_exists('emailUsuarioLogado', $_SESSION))
 	{
-	 header('Location: Pagina1.php');
+	 header('Location: paginaNotas.php');
 	 exit();
  }
 ?>
@@ -23,7 +23,7 @@
       <meta charset="UTF-8">
       <title>Cotton Candy</title>
       <link rel="shortcut icon" href="logo1.png" />
-      <link rel="stylesheet" href="stylesInicio.css">
+      <link rel="stylesheet" href="styles.css">
 
     </head>
     <body style="overflow:hidden;">
