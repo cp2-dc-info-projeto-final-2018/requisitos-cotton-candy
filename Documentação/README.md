@@ -12,11 +12,12 @@
 ## Sumário
 - [Proposta](#proposta)
 - [Stakeholders](#stakeholders)
-- [ClassDiagram.asta](#classdiagram.asta)
+[Casos de Uso](https://github.com/cp2-dc-info-projeto-final-2018/requisitos-cotton-candy/blob/master/Documenta%C3%A7%C3%A3o/CasosUso.md)
+[Diagrama de classes](https://github.com/cp2-dc-info-projeto-final-2018/requisitos-cotton-candy/blob/master/Documenta%C3%A7%C3%A3o/ClassDiagram.asta)
+[Diagrama de casos de uso](https://github.com/cp2-dc-info-projeto-final-2018/requisitos-cotton-candy/blob/master/Documenta%C3%A7%C3%A3o/UseCases.asta)
 
 
-Casos de uso
-Diagrama de casos de uso
+
 Link para descrição dos casos de uso
 Modelagem
 Diagrama de classes
@@ -27,7 +28,7 @@ Breve manual de utilização com prints
 
 
 
-[Flex Grid](https://github.com/cp2-dc-info-projeto-final-2018/requisitos-cotton-candy/blob/master/Documenta%C3%A7%C3%A3o/ClassDiagram.asta)
+
 
 ![logo1](logo1.png)
 
