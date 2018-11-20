@@ -29,7 +29,7 @@ FALTA >>>>Link para descrição dos casos de uso
 ## Proposta
 
 ### Visão Geral
-Desenvolver um site cujo o objetivo é gerenciar os estudos de todos os tipos e alunos, utilizando planilhas de um jeito simples e intuitivo.
+Desenvolver um site cujo o objetivo é gerenciar os estudos dos alunos, utilizando planilhas de um jeito simples e intuitivo. De acordo com os dados do aluno, ele poderá personalizar suas matérias, gerenciar suas notas, visualizar sua média, adicionar eventos ao calendário a fim de um maior controle do seu ano letivo
 
 ### Objetivo
 * Gerenciar Matérias;
