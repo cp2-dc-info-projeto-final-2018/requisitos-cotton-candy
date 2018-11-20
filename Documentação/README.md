@@ -34,7 +34,6 @@ Desenvolver um site cujo o objetivo é gerenciar os estudos dos alunos, utilizan
 ### Objetivo
 * Gerenciar Matérias;
 * Gerenciar Notas;
-* Gerenciar Horários;
 * Gerenciar Atividades Extras;
 * Calendários Personalizados.
 
