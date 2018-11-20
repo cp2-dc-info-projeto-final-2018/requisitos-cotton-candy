@@ -20,17 +20,18 @@ Link para os requisitos
 
 
 ## Proposta
-###Visão Geral
+
+### Visão Geral
 Desenvolver um site cujo o objetivo é gerenciar os estudos de todos os tipos e alunos, utilizando planilhas de um jeito simples e intuitivo.
 
-###Objetivo
+### Objetivo
 * Gerenciar Matérias;
 * Gerenciar Notas;
 * Gerenciar Horários;
 * Gerenciar Atividades Extras;
 * Calendários Personalizados.
 
-###Especificações
+### Especificações
 
 O cliente deve fornecer seus dados escolares (Nome, Escola, Curso, Matérias e etc)  para iniciar a utilização do site.
 Com base nesses dados, o site será personalizado de acordo com as suas necessidades.
