@@ -1,5 +1,6 @@
-#### Colégio Pedro II
 # Cotton Candy Planners
+##Projeto Final do Curso Técnico em Informática do Colégio Pedro II – Campus Duque de Caxias – 2018
+###Integrantes: Ashley Raphaella Silva de Mesquita; Bianca Cardoso Marques; Guilherme Augusto de Melo França e Letícia Filgueiras da Conceição
 ##### 19 de junho de 2018
 ### VISÃO GERAL
 Desenvolver um site cujo o objetivo é gerenciar os estudos de todos os tipos e alunos, utilizando planilhas de um jeito simples e intuitivo.
