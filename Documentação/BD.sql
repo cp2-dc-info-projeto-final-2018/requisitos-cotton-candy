@@ -1,3 +1,5 @@
+
+
    CREATE TABLE Usuario(
     	id_Aluno INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
     	Nome VARCHAR(100) NOT NULL,
