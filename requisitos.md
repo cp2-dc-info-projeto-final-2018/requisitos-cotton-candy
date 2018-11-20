@@ -10,11 +10,11 @@ Se o servidor não estiver executando corretamente, seja por bugs ou impedindo q
 usuário;
 
 ## RNF3
-* O programa so deve ser responsivo
-O programa deve se adaptar a versão mobile, ajustando-se a qualquer dispositivo;
+* O programa não deve ser responsivo.
+
 
 ## RNF4
-* O programa só estará disponivel mediante ao acesso a internet
+* O programa só estará disponível mediante ao acesso a internet
 Se o usuário não estiver acesso a internet, o site não funcionará mediante ao erro de rede,
 e somente voltará a poder ser executado caso a internet esteja conectada;
 
