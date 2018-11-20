@@ -4,8 +4,18 @@
 
 #### Integrantes: Ashley Raphaella Silva de Mesquita; Bianca Cardoso Marques; Guilherme Augusto de Melo França e Letícia Filgueiras da Conceição
 
-##### 19 de junho de 2018
-### VISÃO GERAL
+- [Proposta](#Visão)
+## CDU 01 -  Cadastro
+
+
+
+Descrição da proposta
+Lista dos stakeholders
+Link para os requisitos
+
+##Proposta
+
+### Visão
 Desenvolver um site cujo o objetivo é gerenciar os estudos de todos os tipos e alunos, utilizando planilhas de um jeito simples e intuitivo.
 ### OBJETIVOS   
 * Gerenciar Matérias;
