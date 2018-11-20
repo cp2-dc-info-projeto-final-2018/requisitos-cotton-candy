@@ -12,5 +12,5 @@
 ## Sumário
 - [Proposta](https://github.com/cp2-dc-info-projeto-final-2018/requisitos-cotton-candy/blob/master/Documenta%C3%A7%C3%A3o/Proposta.md)
 - [Casos de Uso](https://github.com/cp2-dc-info-projeto-final-2018/requisitos-cotton-candy/blob/master/Documenta%C3%A7%C3%A3o/CasosUso.md)
-
+- [Modelagem](https://github.com/cp2-dc-info-projeto-final-2018/requisitos-cotton-candy/blob/master/Documenta%C3%A7%C3%A3o/Modelagem.md)
 - [Manual](https://github.com/cp2-dc-info-projeto-final-2018/requisitos-cotton-candy/blob/master/Documenta%C3%A7%C3%A3o/Manual.md)

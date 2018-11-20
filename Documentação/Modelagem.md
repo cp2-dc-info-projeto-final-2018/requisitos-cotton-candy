@@ -1,2 +1,3 @@
-- [Diagrama de classes](https://github.com/cp2-dc-info-projeto-final-2018/requisitos-cotton-candy/blob/master/Documenta%C3%A7%C3%A3o/ClassDiagram.asta)
+-[Diagrama de Classes png](https://github.com/cp2-dc-info-projeto-final-2018/requisitos-cotton-candy/blob/master/Documenta%C3%A7%C3%A3o/DiagramaDeClasse.png)
+- [Diagrama de Classes](https://github.com/cp2-dc-info-projeto-final-2018/requisitos-cotton-candy/blob/master/Documenta%C3%A7%C3%A3o/ClassDiagram.asta)
 - [Banco de Dados](https://github.com/cp2-dc-info-projeto-final-2018/requisitos-cotton-candy/blob/master/Documenta%C3%A7%C3%A3o/BD.sql)
