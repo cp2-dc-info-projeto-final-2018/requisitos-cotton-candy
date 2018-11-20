@@ -27,6 +27,9 @@ Breve manual de utilização com prints
 
 
 
+[Flex Grid](https://github.com/cp2-dc-info-projeto-final-2018/requisitos-cotton-candy/blob/master/Documenta%C3%A7%C3%A3o/ClassDiagram.asta)
+
+![logo1](logo1.png)
 
 ## Proposta
 
@@ -48,3 +51,5 @@ O usuário poderá modificar seus dados a qualquer momento.
 
 ## Stakeholders
 * Camila Filgueiras da Conceição
+
+## Manual
