@@ -13,7 +13,7 @@
 - [Proposta](#proposta)
 - [Stakeholders](#stakeholders)
 - [ClassDiagram.asta](#classdiagram.asta)
-ClassDiagram.asta
+
 
 Casos de uso
 Diagrama de casos de uso
