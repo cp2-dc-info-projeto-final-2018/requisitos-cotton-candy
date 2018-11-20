@@ -21,7 +21,7 @@
 - [Diagrama de classes](https://github.com/cp2-dc-info-projeto-final-2018/requisitos-cotton-candy/blob/master/Documenta%C3%A7%C3%A3o/ClassDiagram.asta)
 - [Banco de Dados](https://github.com/cp2-dc-info-projeto-final-2018/requisitos-cotton-candy/blob/master/Documenta%C3%A7%C3%A3o/BD.sql)
 
-- [Manual](#manual)
+- [Manual](https://github.com/cp2-dc-info-projeto-final-2018/requisitos-cotton-candy/blob/master/Documenta%C3%A7%C3%A3o/Manual.md)
 
 
 ## Stakeholders
