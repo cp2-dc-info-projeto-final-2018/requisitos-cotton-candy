@@ -4,9 +4,8 @@
 
 #### Integrantes: Ashley Raphaella Silva de Mesquita; Bianca Cardoso Marques; Guilherme Augusto de Melo França e Letícia Filgueiras da Conceição
 
-- [Proposta](#Visão)
-
-
+## Sumário
+- [Proposta - Visão Geral](#proposta---visão-geral)
 
 
 Descrição da proposta
@@ -15,7 +14,7 @@ Link para os requisitos
 
 ##Proposta
 
-### Visão
+## Proposta - Visão Geral
 Desenvolver um site cujo o objetivo é gerenciar os estudos de todos os tipos e alunos, utilizando planilhas de um jeito simples e intuitivo.
 ### OBJETIVOS   
 * Gerenciar Matérias;
