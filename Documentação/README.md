@@ -12,10 +12,18 @@
 ## Sumário
 - [Proposta](#proposta)
 - [Stakeholders](#stakeholders)
+- [ClassDiagram.asta](#classdiagram.asta)
+ClassDiagram.asta
 
+Casos de uso
+Diagrama de casos de uso
+Link para descrição dos casos de uso
+Modelagem
+Diagrama de classes
+Banco de dados
+Manual
+Breve manual de utilização com prints
 
-stakeholders
-Link para os requisitos
 
 
 
