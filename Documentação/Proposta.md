@@ -17,4 +17,6 @@ O usuário poderá modificar seus dados a qualquer momento.
 ## Stakeholders
 * Camila Filgueiras da Conceição
 
+## Requisitos
+
 - [Requisitos](https://github.com/cp2-dc-info-projeto-final-2018/requisitos-cotton-candy/blob/master/Documenta%C3%A7%C3%A3o/Requisitos.md)
