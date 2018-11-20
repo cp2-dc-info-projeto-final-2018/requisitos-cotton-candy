@@ -11,9 +11,10 @@
 
 ## Sumário
 - [Proposta](#proposta)
+- [Stakeholders](#stakeholders)
 
 
-Lista dos stakeholders
+stakeholders
 Link para os requisitos
 
 
@@ -36,3 +37,6 @@ Desenvolver um site cujo o objetivo é gerenciar os estudos de todos os tipos e 
 O cliente deve fornecer seus dados escolares (Nome, Escola, Curso, Matérias e etc)  para iniciar a utilização do site.
 Com base nesses dados, o site será personalizado de acordo com as suas necessidades.
 O usuário poderá modificar seus dados a qualquer momento.
+
+## Stakeholders
+* Camila Filgueiras da Conceição
