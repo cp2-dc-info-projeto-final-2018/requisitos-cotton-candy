@@ -12,19 +12,20 @@
 ## Sumário
 - [Proposta](#proposta)
 - [Stakeholders](#stakeholders)
+[Requisitos](https://github.com/cp2-dc-info-projeto-final-2018/requisitos-cotton-candy/blob/master/Documenta%C3%A7%C3%A3o/Requisitos.md)
+
 - [Casos de Uso](https://github.com/cp2-dc-info-projeto-final-2018/requisitos-cotton-candy/blob/master/Documenta%C3%A7%C3%A3o/CasosUso.md)
-- [Diagrama de classes](https://github.com/cp2-dc-info-projeto-final-2018/requisitos-cotton-candy/blob/master/Documenta%C3%A7%C3%A3o/ClassDiagram.asta)
 - [Diagrama de casos de uso](https://github.com/cp2-dc-info-projeto-final-2018/requisitos-cotton-candy/blob/master/Documenta%C3%A7%C3%A3o/UseCases.asta)
-- [Requisitos](https://github.com/cp2-dc-info-projeto-final-2018/requisitos-cotton-candy/blob/master/Documenta%C3%A7%C3%A3o/Requisitos.md)
 
 
+- [Diagrama de classes](https://github.com/cp2-dc-info-projeto-final-2018/requisitos-cotton-candy/blob/master/Documenta%C3%A7%C3%A3o/ClassDiagram.asta)
+- [Banco de Dados](https://github.com/cp2-dc-info-projeto-final-2018/requisitos-cotton-candy/blob/master/Documenta%C3%A7%C3%A3o/BD.sql)
 
-Link para descrição dos casos de uso
-Modelagem
-Diagrama de classes
-Banco de dados
-Manual
-Breve manual de utilização com prints
+- [Manual](#manual)
+
+
+FALTA >>>>Link para descrição dos casos de uso
+
 
 
 
@@ -55,3 +56,4 @@ O usuário poderá modificar seus dados a qualquer momento.
 * Camila Filgueiras da Conceição
 
 ## Manual
+![PaginaAgenda-CottonCandy](PaginaAgenda-CottonCandy.png)
