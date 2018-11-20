@@ -50,11 +50,11 @@ só permitirá a entrada de um curso por emai.
 
 ## Requisitos Funcionais
 
-### RF 1
+### RF1
 Armazenamento das informações pessoais do cliente durante o cadastro;
   * O Software deverá guardar todos os dados pessoais do usuários fornecidos durante o cadastro.
 
-### RF 2
+### RF2
 Armazenamento dos horários de atividades e eventos do cliente;
   * O Software deverá guardar todos os horários de atividades fornecidos pelo usuário, durante a atuali# Requisitos Não Funcionais
 
