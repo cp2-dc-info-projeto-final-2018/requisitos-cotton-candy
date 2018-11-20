@@ -13,3 +13,8 @@ Desenvolver um site cujo o objetivo é gerenciar os estudos dos alunos, utilizan
 O cliente deve fornecer seus dados escolares (Nome, Escola, Curso, Matérias e etc)  para iniciar a utilização do site.
 Com base nesses dados, o site será personalizado de acordo com as suas necessidades.
 O usuário poderá modificar seus dados a qualquer momento.
+
+## Stakeholders
+* Camila Filgueiras da Conceição
+
+- [Requisitos](https://github.com/cp2-dc-info-projeto-final-2018/requisitos-cotton-candy/blob/master/Documenta%C3%A7%C3%A3o/Requisitos.md)
