@@ -1,5 +1,5 @@
 # Especificação dos Casos de Uso
-- [Diagrama de casos de uso](https://github.com/cp2-dc-info-projeto-final-2018/requisitos-cotton-candy/blob/master/Documenta%C3%A7%C3%A3o/UseCases.asta)
+- [Diagrama de casos de uso](https://github.com/cp2-dc-info-projeto-final-2018/requisitos-cotton-candy/blob/master/Documenta%C3%A7%C3%A3o/CasosUso.jpg)
 
 ## Sumário
 - [CDU 01 - Cadastro](#cdu-01---cadastro)
