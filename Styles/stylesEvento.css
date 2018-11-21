@@ -1,4 +1,3 @@
-
 body {
   padding:0px;
   margin:0px;
@@ -23,8 +22,8 @@ body {
 }
 
 #menu{
-  position: absolute;
   float: left;
+  margin-right: 30px;
 }
 
 #menu ul li a {
@@ -61,44 +60,7 @@ body {
    height: 520px;
 }
 
-#tbnotas {
-  text-align: center;
-  position: relative;
-  left: 20%;
-  border: #9370DB solid;
-  width: 800px;
-  padding: 2%;
-  background-color: #FFE4E1;
-}
-
- h1 {
-  color: #FB4E59;
-}
-.avaliacoes {
-  align: middle;
-  background-color: #F599CC; /*rosa */
-}
-
-.notas {
-  background-color: #88DEFF; /*azul */
-}
-
-td  {
-    width: 100px;
-}
-
-input {
-  background-color: #88DEFF; /*azul */
-  border: none;
-  text-align: center;
-  width: 50px;
-}
-
-td .semestre{
-    width: 200px;
-}
-
-#selectbox{
-  background-color:  #F599CC; /*rosa */
-  font-family: Century Gothic;
+fieldset{
+  width: 500px;
+  left: 20px;
 }
