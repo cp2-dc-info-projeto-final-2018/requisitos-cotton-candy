@@ -33,7 +33,6 @@
     CREATE TABLE Tarefa(
     	id_Tarefa INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
     	Nome VARCHAR(100) NOT NULL,
-    	Cor VARCHAR(7) NOT NULL,
     	Descricao VARCHAR(100),
     	Data_Termino DATE,
     	Hora_Termino DATE,
