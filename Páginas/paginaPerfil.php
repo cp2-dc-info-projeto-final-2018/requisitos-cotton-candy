@@ -1,6 +1,6 @@
 <?php
   require_once('funcoesPerfil.php');
-  session_start();
+
   if (array_key_exists('idAluno', $_SESSION)) {
     $idAluno = $_SESSION['idAluno'];
   }
@@ -38,14 +38,14 @@
 		</div>
 		<div>
 
-
+      <br>
 			<fieldset id="divperfil">
 			 <legend>Perfil do Usuário</legend>
 			 	<form action="funcoesPerfil.php" method="post">
 					<?php
           $dados = PegaDados($idAluno);
 								foreach ($dados as $dado) { ?>
-                  
+
 			    <label><b>Nome: </b></label> <?php echo $dado['Nome']; echo $dado['Sobrenome']?>  <br><br>
 
 			    <label><b>Usuário: </b></label> <?php echo $dado['Usuario']?> <br><br>

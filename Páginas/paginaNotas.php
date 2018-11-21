@@ -7,6 +7,7 @@
   {
     $idMateria = $_REQUEST['id'];
     $notas = PegaNotas($idMateria);
+    $media = CalculaMedia($idMateria);
   }
   else {
     $idMateria = null;

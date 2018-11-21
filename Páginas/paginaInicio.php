@@ -4,13 +4,12 @@
 	{
 	 $erro = $_SESSION['erroLogin'];
 	 unset($_SESSION['erroLogin']);
-	 //header('Location = Inicio.php');
 	}
 	else
 	{
 		$erro= null;
 	}
-	if (array_key_exists('emailUsuarioLogado', $_SESSION))
+	if (array_key_exists('idAluno', $_SESSION))
 	{
 	 header('Location: paginaNotas.php');
 	 exit();
