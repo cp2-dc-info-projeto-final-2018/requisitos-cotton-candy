@@ -32,14 +32,11 @@ $request = filter_var_array(
     'matinsert' => FILTER_DEFAULT,
     'idAluno' => FILTER_DEFAULT
   ]);
-var_dump($request['mat']);
+
 if ($request['mat'] == null){
-  $erros = "Voce é nulo vacilao";
+  $erros = "Matéria não pode ser nulo";
 }
 
-if ($request['idAluno'] == null){
-  $erros = "Voce é nulo vacilao1";
-}
   session_start();
   if (empty($erros) == true) {
     ApagarMaterias($request['idMateria'],$request['matinsert']);
