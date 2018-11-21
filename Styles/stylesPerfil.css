@@ -2,6 +2,12 @@ body {
   padding:0px;
   margin:0px;
   font-family: Century Gothic;
+  background-image: url(fundoDegrade.jpg)  ;
+  background-repeat:no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #menu ul {
